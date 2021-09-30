@@ -18,6 +18,12 @@ pipeline {
             }
         }
         
+         stage('post Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+        
         
     }
 }
