@@ -18,11 +18,6 @@ pipeline {
             }
         }
         
-        stage('psot Deploy') {
-            steps {
-                echo 'post Deploying....'
-            }
-        }
         
     }
 }
