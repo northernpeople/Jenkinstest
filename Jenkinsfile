@@ -13,6 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Te2sting..'
+                sh 'mvn install -DskipTests'
             }
         }
         stage('Deploy') {
